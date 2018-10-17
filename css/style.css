@@ -1,0 +1,87 @@
+body {
+    margin: auto;
+    width: 800px;
+    font-family: 'Gentium Book Basic';
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: #1079ac;
+}
+
+h2 {
+    font-size: 30px;
+    color: #1079ac;
+}
+
+h3 {
+    text-decoration: underline;
+    color: #1079ac;
+}
+
+a {
+    text-decoration: none;
+    color: #ac1079;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#intro {
+    margin-top: 60px;
+}
+
+#navBar {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#mainNav li {
+    display: inline;
+    margin: 0 20px 0 0;
+    padding: 4px 4px 4px 4px;
+    background-color: #d5d5d5;
+    -moz-border-radius: 6px; 
+    border-radius: 6px; /* standards-compliant: (IE) */ 
+}
+
+#content {
+    margin-top: 40px;
+    text-align:justify;
+}
+
+
+.squarebrackets 
+{
+  position: relative;
+  padding: 10px;
+}
+
+.squarebrackets:before {
+   content: " ";
+   position: absolute;
+   border-left:5px solid #1079ac;
+   border-top:5px solid #1079ac;
+   border-bottom:5px solid #1079ac;
+   padding:5px;
+   top:-10px;
+   bottom:-10px;
+   left: -5px;
+}
+.squarebrackets:after
+{
+   content: " ";
+   position: absolute;
+   border-right:5px solid #1079ac;
+   border-top:5px solid #1079ac;
+   border-bottom:5px solid #1079ac;
+   padding:5px;
+   top:-10px;
+   bottom:-10px;
+   right: -5px;
+}
+
+
+
