@@ -70,8 +70,14 @@ td, th {
 }
     
 
-.news-meta {
+.news-element {
+    margin-bottom: 40px;
+}
 
+.news-heading {
+    font-size: 25px;
+    text-decoration: bold;
+    margin-bottom: 15px;
 }
 
 .news-block {
